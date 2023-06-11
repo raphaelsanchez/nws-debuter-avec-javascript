@@ -122,6 +122,9 @@ console.log(etudiant.age); // affiche 30
 
 ## Exercices
 
+> Attention, les exercices suivants sont à réaliser dans le fichier `VOTRE_NOM-exercices-les-classes.js`.  
+> L'ensemble des classes doivent être définies dans ce fichier puisqu'elles seront depandantes les unes des autres.
+
 ### Exercice 1
 
 Créer une classe `Personne` avec les propriétés suivantes :
