@@ -17,6 +17,8 @@ class Personne {
 
 La méthode `constructor()` est appelée automatiquement lors de la création d'un nouvel objet.
 
+On appelle cela créer une instance de la classe `Personne`.
+
 ```javascript
 let personne = new Personne("John", "Doe", 25, "Rouen");
 ```
