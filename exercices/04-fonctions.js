@@ -1,5 +1,6 @@
 /**
- * Exercice 1
+ * EXERCICE 1
+ * -------------------------------------------------------------------------
  * Déclarez une fonction `afficherMessage()` qui affiche un message dans la console.
  *
  * Puis appelez la fonction `afficherMessage()`.
@@ -9,7 +10,7 @@
  * Hello World!
  * ```
  */
-console.log("\n====== Exercice 1 ======\n")
+console.log("\n====== EXERCICE 1 ======\n")
 
 function afficherMessage() {
   console.log("Hello World!")
@@ -18,7 +19,8 @@ function afficherMessage() {
 afficherMessage()
 
 /**
- * Exercice 2
+ * EXERCICE 2
+ * -------------------------------------------------------------------------
  * Déclarez une fonction `afficherSomme()` qui prend deux paramètres `a` et `b`
  *
  * Puis appelez la fonction `afficherSomme()` en passant `1` et `2` comme arguments.
@@ -28,7 +30,7 @@ afficherMessage()
  * 3
  * ```
  */
-console.log("\n====== Exercice 2 ======\n")
+console.log("\n====== EXERCICE 2 ======\n")
 
 // Solution
 function afficherSomme(a, b) {
@@ -38,7 +40,8 @@ function afficherSomme(a, b) {
 afficherSomme(1, 2)
 
 /**
- * Exercice 3
+ * EXERCICE 3
+ * -------------------------------------------------------------------------
  * Déclarez une fonction `calculerSomme()` qui prend deux paramètres `a` et `b` et retourne leur somme.
  *
  * Puis, dans un `console.log()` appelez la fonction `calculerSomme()` en passant `10` et `20` comme arguments pour afficher le résultat dans la console.
@@ -48,7 +51,7 @@ afficherSomme(1, 2)
  * 3
  * ```
  */
-console.log("\n====== Exercice 3 ======\n")
+console.log("\n====== EXERCICE 3 ======\n")
 
 // Solution
 function calculerSomme(a, b) {
@@ -58,7 +61,8 @@ function calculerSomme(a, b) {
 console.log(calculerSomme(10, 20))
 
 /**
- * Exercice 4
+ * EXERCICE 4
+ * -------------------------------------------------------------------------
  * Déclarez une fonction `afficherSomme()` qui prend deux paramètres `a` et `b` et une fonction anonyme comme paramètre callback.
  * La fonction `afficherSomme()` doit appeler la fonction anonyme en passant la somme de `a` et `b` comme argument.
  * Appelez la fonction `afficherSomme()` en passant `100` et `200` comme arguments et en passant une fonction anonyme qui affiche le résultat dans la console.
@@ -71,7 +75,7 @@ console.log(calculerSomme(10, 20))
  * 3
  * ```
  */
-console.log("\n====== Exercice 4 ======\n")
+console.log("\n====== EXERCICE 4 ======\n")
 
 // Solution
 function afficherCalculeSomme(a, b, callback) {

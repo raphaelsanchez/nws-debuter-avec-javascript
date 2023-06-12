@@ -1,5 +1,6 @@
 /**
- * Exercice 1
+ * EXERCICE 1
+ * -------------------------------------------------------------------------
  * Affichez les nombres de 1 à 5 en utilisant une boucle `for`.
  *
  * Résultat attendu :
@@ -11,7 +12,7 @@
  * 5
  * ```
  */
-console.log("\n====== Exercice 1 ======\n")
+console.log("\n====== EXERCICE 1 ======\n")
 
 // Solution
 for (let i = 1; i <= 10; i++) {
@@ -19,7 +20,8 @@ for (let i = 1; i <= 10; i++) {
 }
 
 /**
- * Exercice 2
+ * EXERCICE 2
+ * -------------------------------------------------------------------------
  * Affichez les propriétés de l'objet `personne` en utilisant une boucle `for...in`.
  * Vous pouvez utiliser la syntaxe `personne[key]` pour accéder à la valeur de la propriété `key`.
  * Vous pouvez utiliser `console.log(`${key}: ${personne[key]}`);` pour afficher le résultat.
@@ -32,7 +34,7 @@ for (let i = 1; i <= 10; i++) {
  * ville: Rouen
  * ```
  */
-console.log("\n====== Exercice 2 ======\n")
+console.log("\n====== EXERCICE 2 ======\n")
 
 // Solution
 const personne = {
@@ -47,7 +49,8 @@ for (const key in personne) {
 }
 
 /**
- * Exercice 3
+ * EXERCICE 3
+ * -------------------------------------------------------------------------
  * Affichez les éléments du tableau `fruits` en utilisant une boucle `for...of`.
  * Vous pouvez utiliser `console.log(fruit);` dans votre boucle pour afficher les résultats.
  *
@@ -58,7 +61,7 @@ for (const key in personne) {
  * banane
  * ```
  */
-console.log("\n====== Exercice 3 ======\n")
+console.log("\n====== EXERCICE 3 ======\n")
 
 // Solution
 const fruits = ["pomme", "poire", "banane"]
@@ -68,8 +71,8 @@ for (const fruit of fruits) {
 }
 
 /**
- * Exercice 4
- *
+ * EXERCICE 4
+ * -------------------------------------------------------------------------
  * Affichez les nombres de 5 à 10 en utilisant une boucle `while`.
  * Vous pouvez utiliser `console.log(i);` dans votre boucle pour afficher les résultats.
  *
@@ -83,7 +86,7 @@ for (const fruit of fruits) {
  * 10
  * ```
  */
-console.log("\n====== Exercice 4 ======\n")
+console.log("\n====== EXERCICE 4 ======\n")
 
 // Solution
 let i = 5

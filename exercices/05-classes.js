@@ -1,5 +1,6 @@
 /**
- * Exercice 1
+ * EXERCICE 1
+ * -------------------------------------------------------------------------
  * Créez une class `Personne` avec les propriétés suivantes :
  *
  * - `firstname` : prénom de la personne
@@ -25,7 +26,7 @@
  * John Doe à 30 ans et habite à Rouen
  * ```
  */
-console.log("\n====== Exercice 1 ======\n")
+console.log("\n====== EXERCICE 1 ======\n")
 
 class Personne {
   constructor(firstname, lastname, age, city) {
@@ -52,7 +53,8 @@ console.log(
 )
 
 /**
- * Exercice 2
+ * EXERCICE 2
+ * -------------------------------------------------------------------------
  * Créer une classe `Etudiant` qui hérite de la classe `Personne` avec la propriété supplémentaire suivante :
  *
  * - `classRoom` qui correspond classe dans laquelle l'étudiant est inscrit
@@ -66,7 +68,7 @@ console.log(
  * John Doe, 20 ans étudiant NWS A1 G2
  * ```
  */
-console.log("\n====== Exercice 2 ======\n")
+console.log("\n====== EXERCICE 2 ======\n")
 
 class Etudiant extends Personne {
   constructor(firstname, lastname, age, ville, classRoom) {
@@ -83,7 +85,8 @@ console.log(
 )
 
 /**
- * Exercice 3
+ * EXERCICE 3
+ * -------------------------------------------------------------------------
  * Créer une classe `Employe` qui hérite de la classe `Personne` avec la propriété supplémentaire suivante :
  *
  * - `salary` : salaire de l'employé
@@ -101,7 +104,7 @@ console.log(
  John Doe gagne maintenant 3500€ par mois
  * ```
  */
-console.log("\n====== Exercice 3 ======\n")
+console.log("\n====== EXERCICE 3 ======\n")
 
 class Employe extends Personne {
   constructor(firstname, lastname, age, ville, salary) {
@@ -126,8 +129,8 @@ console.log(
 )
 
 /**
- * Exercice 4
- *
+ * EXERCICE 4
+ * -------------------------------------------------------------------------
  * Créer une classe `Entreprise` avec les propriétés suivantes :
  *
  * - `nom` : nom de l'entreprise
@@ -151,7 +154,7 @@ console.log(
  * Jim Doe à 42 ans
  * ```
  */
-console.log("\n====== Exercice 4 ======\n")
+console.log("\n====== EXERCICE 4 ======\n")
 
 class Entreprise {
   constructor(nom, adresse) {

@@ -1,5 +1,6 @@
 /**
- * Exercice 1
+ * EXERCICE 1
+ * -------------------------------------------------------------------------
  * Créez un objet `personne` avec les propriétés vous concernant suivantes :
  *
  * - `firstname` : ""
@@ -17,7 +18,7 @@
  * Rouen
  * ```
  */
-console.log("\n====== Exercice 1 ======\n")
+console.log("\n====== EXERCICE 1 ======\n")
 
 // Solution
 const personne = {
@@ -33,7 +34,8 @@ console.log(personne.age)
 console.log(personne.city)
 
 /**
- * Exercice 2
+ * EXERCICE 2
+ * -------------------------------------------------------------------------
  * Créez un tableau `personnes` contenant les objets suivants :
  * - `{firstname: "John", lastname: "Doe", age: 25, city: "Rouen"}`
  * - `{firstname: "Jane", lastname: "Doe", age: 30, city: "Paris"}`
@@ -50,7 +52,7 @@ console.log(personne.city)
  * ]
  * ```
  */
-console.log("\n====== Exercice 2 ======\n")
+console.log("\n====== EXERCICE 2 ======\n")
 
 // Solution
 const personnes = [
@@ -62,8 +64,9 @@ const personnes = [
 console.log(personnes)
 
 /**
- * Exercice 3
- * En se basant l'objet `personnes` de l'exercice 2 (il existe déjà normalement, pas besoin de le refaire), ajoutez un objet à la fin du tableau `personnes` :
+ * EXERCICE 3
+ * -------------------------------------------------------------------------
+ * En se basant l'objet `personnes` de l'EXERCICE 2 (il existe déjà normalement, pas besoin de le refaire), ajoutez un objet à la fin du tableau `personnes` :
  * - `{firstname: "Polo", lastname: "Doe", age: 30, city: "Marseille"}`
  *
  * Vous pouvez utiliser la méthode `push()` pour ajouter un élément à un tableau :
@@ -80,7 +83,7 @@ console.log(personnes)
  * ]
  * ```
  */
-console.log("\n====== Exercice 3 ======\n")
+console.log("\n====== EXERCICE 3 ======\n")
 
 // Solution
 personnes.push({
@@ -93,7 +96,8 @@ personnes.push({
 console.log(personnes)
 
 /**
- * Exercice 4
+ * EXERCICE 4
+ * -------------------------------------------------------------------------
  * Modifiez le premier objet du tableau `personnes` en utilisant la syntaxe suivante : `personnes[0].firstname = "Jean";`
  *
  * Supprimer le deuxième objet du tableau `personnes` en utilisant la méthode `splice()` :
@@ -109,7 +113,7 @@ console.log(personnes)
  * ]
  */
 
-console.log("\n====== Exercice 4 ======\n")
+console.log("\n====== EXERCICE 4 ======\n")
 
 // Solution
 personnes[0].firstname = "Jean"

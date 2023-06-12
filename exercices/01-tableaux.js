@@ -1,5 +1,5 @@
 /**
- * Exercice 1
+ * EXERCICE 1
  * -------------------------------------------------------------------------
  * Créez un tableau contenant les nombres de 1 à 10.
  *
@@ -19,7 +19,7 @@
  * 10
  * ```
  */
-console.log("\n====== Exercice 1 ======\n")
+console.log("\n====== EXERCICE 1 ======\n")
 
 // Solution
 const nombres = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -29,7 +29,7 @@ console.log(nombres[nombres.length - 1])
 console.log(nombres.length)
 
 /**
- * Exercice 2
+ * EXERCICE 2
  * -------------------------------------------------------------------------
  * Créez un tableau contenant les chiffres de 10 à 100 de 10 en 10.
  * Affichez le tableau. Inversez le tableau. Affichez le tableau.
@@ -46,7 +46,7 @@ console.log(nombres.length)
  * ]
  * ```
  */
-console.log("\n====== Exercice 2 ======\n")
+console.log("\n====== EXERCICE 2 ======\n")
 
 // Solution
 const chiffres = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
@@ -56,7 +56,7 @@ chiffres.reverse()
 console.log(chiffres)
 
 /**
- * Exercice 3
+ * EXERCICE 3
  * -------------------------------------------------------------------------
  * Créez un tableau contenant les nombres de 1 à 10. Affichez le tableau. Triez le tableau. Affichez le tableau.
  *
@@ -73,7 +73,7 @@ console.log(chiffres)
  * ]
  * ```
  */
-console.log("\n====== Exercice 3 ======\n")
+console.log("\n====== EXERCICE 3 ======\n")
 
 // Solution
 const nombresEnDesordres = [2, 5, 1, 9, 0, 3, 7, 4, 6, 8]
@@ -83,9 +83,9 @@ nombresEnDesordres.sort()
 console.log(nombresEnDesordres)
 
 /**
- * Exercice 4
+ * EXERCICE 4
  * -------------------------------------------------------------------------
- * En repartant du tableau `nombres` de l'exercice 1,
+ * En repartant du tableau `nombres` de l'EXERCICE 1,
  * ajoutez le nombre 11 à la fin du tableau.
  * Affichez le tableau.
  * Ajoutez le nombre 0 au début du tableau.
@@ -113,7 +113,7 @@ console.log(nombresEnDesordres)
  * ]
  * ```
  */
-console.log("\n====== Exercice 4 ======\n")
+console.log("\n====== EXERCICE 4 ======\n")
 
 // Solution
 nombres.push(11)
@@ -126,9 +126,9 @@ nombres.pop()
 console.log(nombres)
 
 /**
- * Exercice 5
+ * EXERCICE 5
  * -------------------------------------------------------------------------
- * En repartant du tableau `nombres` de l'exercice 1,
+ * En repartant du tableau `nombres` de l'EXERCICE 1,
  * Affichez le tableau avec `console.log(nombres)`.
  * Supprimez les 5 premiers nombres.
  * Affichez le tableau.
@@ -146,7 +146,7 @@ console.log(nombres)
  * [ 5, 6, 7, 8, 9, 10 ]
  * ```
  */
-console.log("\n====== Exercice 5 ======\n")
+console.log("\n====== EXERCICE 5 ======\n")
 
 // Solution
 console.log(nombres)
