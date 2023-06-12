@@ -16,6 +16,10 @@ Ce cours vous donne un aperçu des concepts de base de JavaScript. Il existe bie
 - [Node.js](https://nodejs.org/en/)
 - [Git](https://git-scm.com/downloads)
 
+## Outils en ligne
+
+- [JSBin](https://jsbin.com/?js,console)
+
 
 ## Ressources
 
