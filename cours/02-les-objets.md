@@ -8,10 +8,10 @@ Vous pouvez déclarer un objet en utilisant la syntaxe suivante :
 
 ```javascript
 let objet = {
-    propriete1: "valeur1",
-    propriete2: "valeur2",
-    propriete3: "valeur3"
-};
+  propriete1: "valeur1",
+  propriete2: "valeur2",
+  propriete3: "valeur3",
+}
 ```
 
 ## Opérations sur les objets :
@@ -106,15 +106,15 @@ let personnes = [
 Vous pouvez accéder à un élément du tableau en utilisant son index. Par exemple, pour accéder au premier élément du tableau, vous utilisez la syntaxe suivante :
 
 ```javascript
-console.log(personnes[0]); // affiche "{firstname: "John", lastname: "Doe", age: 25, ville: "Rouen"}"
+console.log(personnes[0]) // affiche "{firstname: "John", lastname: "Doe", age: 25, ville: "Rouen"}"
 ```
 
 Vous pouvez également modifier un élément du tableau en utilisant son index. Par exemple, pour modifier le premier élément du tableau, vous utilisez la syntaxe suivante :
 
 ```javascript
-personnes[0].firstname = "Jean";
+personnes[0].firstname = "Jean"
 
-console.log(personnes[0]); // affiche "{firstname: "Jean", lastname: "Doe", age: 25, ville: "Rouen"}"
+console.log(personnes[0]) // affiche "{firstname: "Jean", lastname: "Doe", age: 25, ville: "Rouen"}"
 ```
 
 Vous pouvez également ajouter un élément au tableau en utilisant la syntaxe suivante :
@@ -133,56 +133,9 @@ console.log(personnes[3]); // affiche "{firstname: "James", lastname: "Doe", age
 Vous pouvez également supprimer un élément du tableau en utilisant la syntaxe suivante :
 
 ```javascript
-personnes.splice(0, 1);
+personnes.splice(0, 1)
 
-console.log(personnes[0]); // affiche "{firstname: "Jane", lastname: "Doe", age: 30, ville: "Paris"}"
-```
-
-## Exercices
-
-### Exercice 1
-
-Créez un objet `personne` avec les propriétés vous concernant suivantes :
-
-- `firstname` : ""
-- `lastname` : ""
-- `age` : 
-- `ville` : ""
-
-Affichez les propriétés de l'objet `personne` dans la console.
-
-### Exercice 2
-
-Créez un tableau `personnes` contenant les objets suivants :
-
-- `{firstname: "John", lastname: "Doe", age: 25, ville: "Rouen"}`
-
-Affichez le tableau `personnes` dans la console.
-
-### Exercice 3
-
-Ajoutez les objets suivants au tableau `personnes` :
-
-- `{firstname: "Jane", lastname: "Doe", age: 30, ville: "Paris"}`
-
-Affichez le tableau `personnes` dans la console.
-
-### Exercice 4
-
-Modifiez le premier objet du tableau `personnes` en utilisant la syntaxe suivante :
-
-```javascript
-personnes[0].firstname = "Jean";
-```
-
-Affichez le tableau `personnes` dans la console.
-
-### Exercice 5
-
-Supprimez le dernier objet du tableau `personnes` en utilisant la syntaxe suivante :
-
-```javascript
-personnes.splice(0, 1);
+console.log(personnes[0]) // affiche "{firstname: "Jane", lastname: "Doe", age: 30, ville: "Paris"}"
 ```
 
 ## Liens utils
@@ -190,4 +143,3 @@ personnes.splice(0, 1);
 - [MDN - Les objets](https://developer.mozilla.org/fr/docs/Learn/JavaScript/Objects/Basics)
 - [MDN - Les tableaux](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Array)
 - [MDN - Les tableaux d'objets](https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/Indexed_collections#Tableaux_d'objets)
-
