@@ -20,6 +20,22 @@ Ce cours vous donne un aperçu des concepts de base de JavaScript. Il existe bie
 
 - [JSBin](https://jsbin.com/?js,console)
 
+## Utiliser le serveur node 
+Dans votre dossier de travail, vérifier que vous avez node installé avec la commande :
+
+```bash
+node -v
+```
+
+toujours dans votre dossier de travail, créer un fichier ex: `tableaux.js` (en gros le nom de l'exercice correspondant)
+
+Pour executer votre code, dans le terminal, taper la commande :
+
+```bash
+node --watch tableaux.js
+```
+
+ici, le parametre `--watch` permet de relancer le code à chaque sauvegarde du fichier.
 
 ## Ressources
 
