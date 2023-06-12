@@ -179,7 +179,7 @@ Affichez le tableau `personnes` dans la console.
 
 ### Exercice 5
 
-Supprimez le premier objet du tableau `personnes` en utilisant la syntaxe suivante :
+Supprimez le dernier objet du tableau `personnes` en utilisant la syntaxe suivante :
 
 ```javascript
 personnes.splice(0, 1);
