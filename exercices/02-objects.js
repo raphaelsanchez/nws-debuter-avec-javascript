@@ -66,7 +66,8 @@ console.log(personnes)
 /**
  * EXERCICE 3
  * -------------------------------------------------------------------------
- * En se basant l'objet `personnes` de l'EXERCICE 2 (il existe déjà normalement, pas besoin de le refaire), ajoutez un objet à la fin du tableau `personnes` :
+ * En se basant l'objet `personnes` de l'EXERCICE 2 (il existe déjà normalement,
+ * pas besoin de le refaire), ajoutez un objet à la fin du tableau `personnes` :
  * - `{firstname: "Polo", lastname: "Doe", age: 30, city: "Marseille"}`
  *
  * Vous pouvez utiliser la méthode `push()` pour ajouter un élément à un tableau :
