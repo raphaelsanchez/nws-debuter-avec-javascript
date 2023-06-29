@@ -1,1 +1,5 @@
-.vscode
+.vscode/
+rendus/
+
+# OS generated files #
+.DS_Store
